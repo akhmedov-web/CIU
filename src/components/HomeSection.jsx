@@ -38,14 +38,14 @@ export default function HomeSection() {
 
 const Wrapper = styled(Splide)`
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   z-index: -10;
   display: flex;
   flex-direction: column;
   justify-content: end;
 `;
 const CarouselItemOne = styled(SplideSlide)`
-height: 80vh;
+height: 95vh;
 background-image: url("https://millatumidi.uz/static/media/university-new.42a9bf6306a14bfaf046.jpg");
 background-position: center;
 background-repeat: no-repeat;
@@ -58,7 +58,7 @@ position: relative;
 }
 `;
 const CarouselItemTwo = styled(SplideSlide)`
-height: 80vh;
+height: 95vh;
 background-image: url("https://millatumidi.uz/static/media/University2.f5e566c9098b1ad88734.jpg");
 background-position: center;
 background-repeat: no-repeat;

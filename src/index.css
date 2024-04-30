@@ -7,9 +7,48 @@
 .layer{
   padding-left: 16rem;
   padding-right: 16rem;
+  width: 100%;
 }
 .hh{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.pages_header{
+  background-image: url('../public/images/breadcrumb.jpg');
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+.pages_header h1{
+  font-size: 70px;
+}
+.pages_header .pages_navigator{
+  padding: 1rem 2rem;
+  background: #F13C20;
+  position: absolute;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -2rem;
+}
+.pages_header .pages_navigator .pages_route{
+  font-family: sans-serif;
+}
+.pages_header .pages_navigator .pages_route span{
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.742);
+}
+
+.sans-serif{
+  font-family: sans-serif;
+}
+
+p{
+  font-family: sans-serif !important;
 }

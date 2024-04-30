@@ -31,6 +31,7 @@ align-items: center;
 height: 5.7rem;
 width: 100%;
 position: fixed;
+z-index: 15;
 
 .logo{
     height: 80%;

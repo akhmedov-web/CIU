@@ -11,7 +11,7 @@ const MainButton=styled(Button)`
 text-transform: uppercase;
 background-color: #F13C20;
 box-sizing: border-box;
-height: 80%;
+height: 3rem;
 transition: all 0.4s ease-in-out;
 &:hover{
     background-color: #134F69 !important;
